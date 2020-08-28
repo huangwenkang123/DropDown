@@ -81,6 +81,7 @@
 		0AB5D8971D0EF15D002D3A17 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AB5D8A01D0EF173002D3A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AC1C3391B6B884100A8DC0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demo/Images.xcassets; sourceTree = "<group>"; };
+		5D56763124F8F19B00D922A6 /* DropDown.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = DropDown.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +173,7 @@
 		0AB5D8721D0EEECD002D3A17 /* DropDown */ = {
 			isa = PBXGroup;
 			children = (
+				5D56763124F8F19B00D922A6 /* DropDown.podspec */,
 				0AB5D8871D0EEEFF002D3A17 /* DropDown.h */,
 				0AB5D8751D0EEECD002D3A17 /* Info.plist */,
 				0AB5D87D1D0EEEFF002D3A17 /* helpers */,

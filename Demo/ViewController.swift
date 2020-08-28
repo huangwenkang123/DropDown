@@ -109,7 +109,7 @@ class ViewController: UIViewController {
 		appearance.backgroundColor = UIColor(white: 1, alpha: 1)
 		appearance.selectionBackgroundColor = UIColor(red: 0.6494, green: 0.8155, blue: 1.0, alpha: 0.2)
 //		appearance.separatorColor = UIColor(white: 0.7, alpha: 0.8)
-		appearance.cornerRadius = 10
+		appearance.dd_cornerRadius = 10
 		appearance.dd_shadowColor = UIColor(white: 0.6, alpha: 1)
 		appearance.dd_shadowOpacity = 0.9
 		appearance.dd_shadowRadius = 25

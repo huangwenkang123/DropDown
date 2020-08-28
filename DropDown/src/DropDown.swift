@@ -222,7 +222,7 @@ public final class DropDown: UIView {
 
 	Changing the corner radius automatically reloads the drop down.
 	*/
-	@objc public dynamic var cornerRadius = DPDConstant.UI.CornerRadius {
+	@objc public dynamic var dd_cornerRadius = DPDConstant.UI.CornerRadius {
 		willSet {
 			tableViewContainer.layer.cornerRadius = newValue
 			tableView.layer.cornerRadius = newValue
@@ -530,7 +530,7 @@ private extension DropDown {
 		super.backgroundColor = dimmedBackgroundColor
 
 		tableViewContainer.layer.masksToBounds = false
-		tableViewContainer.layer.cornerRadius = cornerRadius
+		tableViewContainer.layer.cornerRadius = dd_cornerRadius
 		tableViewContainer.layer.shadowColor = dd_shadowColor.cgColor
 		tableViewContainer.layer.shadowOffset = dd_shadowOffset
 		tableViewContainer.layer.shadowOpacity = dd_shadowOpacity
@@ -538,7 +538,7 @@ private extension DropDown {
 
 		tableView.backgroundColor = tableViewBackgroundColor
 		tableView.separatorColor = separatorColor
-		tableView.layer.cornerRadius = cornerRadius
+		tableView.layer.cornerRadius = dd_cornerRadius
 		tableView.layer.masksToBounds = true
 	}
 
@@ -646,7 +646,7 @@ extension DropDown {
 		// We update the constraint to update the position
 		setNeedsUpdateConstraints()
 
-		let shadowPath = UIBezierPath(roundedRect: tableViewContainer.bounds, cornerRadius: cornerRadius)
+		let shadowPath = UIBezierPath(roundedRect: tableViewContainer.bounds, cornerRadius: dd_cornerRadius)
 		tableViewContainer.layer.shadowPath = shadowPath.cgPath
 	}
 
