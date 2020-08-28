@@ -148,7 +148,7 @@ public final class DropDown: UIView {
 
 	Defaults to `anchorView.bounds.width - offset.x`.
 	*/
-	public var width: CGFloat? {
+	public var dd_width: CGFloat? {
 		didSet { setNeedsUpdateConstraints() }
 	}
 
