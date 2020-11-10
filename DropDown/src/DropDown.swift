@@ -151,7 +151,14 @@ public final class DropDown: UIView {
 	public var dd_width: CGFloat? {
 		didSet { setNeedsUpdateConstraints() }
 	}
+    
+    
+    public var limitEdgeInset: UIEdgeInsets = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20) {
+        didSet { setNeedsUpdateConstraints() }
+    }
+    
 
+    
 	/**
 	arrowIndication.x
 

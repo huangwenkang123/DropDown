@@ -33,7 +33,8 @@ internal struct DPDConstant {
 		static let CornerRadius: CGFloat = 2
 		static let RowHeight: CGFloat = 44
 		static let HeightPadding: CGFloat = 20
-
+        static let limitEdgeInset: UIEdgeInsets = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
+        
 		struct Shadow {
 
 			static let Color = UIColor.darkGray
